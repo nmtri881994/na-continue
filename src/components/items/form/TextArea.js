@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 import lineHeight from 'line-height';
 
-require("../../../style/input.css");
+require("../../../style/scss/input.scss");
 
 const TextArea = (props) => {
 

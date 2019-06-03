@@ -2,7 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlus, faCheck } from '@fortawesome/free-solid-svg-icons';
 
-require("../../../style/button.css");
+require("../../../style/scss/button.scss");
 
 const Button = (props) => (
     <div onClick={() => props.onClick ? props.onClick() : null} className="button-container-1" tabIndex={props.tabIndex}>

@@ -2,7 +2,7 @@ import React, { useState, forwardRef, useImperativeHandle } from 'react';
 import PropTypes from 'prop-types';
 import _ from 'lodash';
 
-require("../../../style/input.css");
+require("../../../style/scss/input.scss");
 
 const FormInput = forwardRef((props, ref) => {
 

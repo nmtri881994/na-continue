@@ -1,0 +1,45 @@
+%flex-box {
+    display: flex;
+}
+
+%flex-box-row {
+    @extend %flex-box;
+    flex-direction: row;
+}
+
+%flex-box-column {
+    @extend %flex-box;
+    flex-direction: column;
+}
+
+.index-container-1 {
+    @extend %flex-box-column;
+    
+    width: 100%;
+}
+
+.index-header-container-1 {
+    @extend %flex-box-row;
+
+    margin-top: 2rem;
+}
+
+.index-cards-container-1 {
+    @extend %flex-box;
+    margin-top: 2rem;
+}
+
+.index-name {
+    @extend %flex-box;
+    font-size: 3em;
+
+    color: #b4b4b4;
+    font-weight: bold;
+}
+
+.index-action {
+    @extend %flex-box;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+}

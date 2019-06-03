@@ -6,7 +6,7 @@ import { faTimes } from '@fortawesome/free-solid-svg-icons';
 import _ from 'lodash';
 
 //style
-require("../../../style/info-form.css");
+require("../../../style/scss/info-form.scss");
 
 //actions
 import { closeAddOrEdit, addItem, editItem } from '../../../actions/cardAction';

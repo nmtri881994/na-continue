@@ -6,7 +6,7 @@ import { faPlus, faCheck } from '@fortawesome/free-solid-svg-icons';
 import moment from 'moment';
 
 //style
-require("../../../style/card.css");
+require("../../../style/scss/card.scss");
 
 //components
 import Thumbnail from './Thumbnail';
@@ -39,15 +39,17 @@ const Card = (props) => {
     }, [props.item.nasaId]);
 
     function onAddOrEdit() {
-        props.startAddOrEdit({
-            title: props.item.title,
-            description: props.item.description,
-            mediaType: props.item.type,
-            previewImageUrl: props.item.previewImageUrl,
-            fileURl: props.item.fileURl,
-            nasaId: props.item.nasaId,
-            dateCreated: props.item.dateCreated
-        });
+        if (!props.item.added) {
+            props.startAddOrEdit({
+                title: props.item.title,
+                description: props.item.description,
+                mediaType: props.item.type,
+                previewImageUrl: props.item.previewImageUrl,
+                fileURl: props.item.fileURl,
+                nasaId: props.item.nasaId,
+                dateCreated: props.item.dateCreated
+            });
+        }
     }
 
     return (<div className="card-container-1">

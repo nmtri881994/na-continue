@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import _ from 'lodash';
 
 //style
-require("../style/index-page.css");
+require("../style/scss/index-page.scss");
 
 //components
 import MainLayout from '../components/layouts/Main';
