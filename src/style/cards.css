@@ -1,0 +1,20 @@
+.cards-line-container {
+    margin-right: -2rem;
+    margin-top: 2rem;
+}
+
+.cards-line-container-1 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+}
+
+@media(max-width: 900px) {
+    .cards-line-container-1 {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .cards-line-container {
+        margin-right: 0;
+    }
+}

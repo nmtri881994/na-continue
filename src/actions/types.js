@@ -1,0 +1,10 @@
+export const DISPLAY_MEDIA = "DISPLAY_MEDIA";
+export const CLOSE_MEDIA_DISPLAY = "CLOSE_MEDIA_DISPLAY";
+
+export const START_ADD_OR_EDIT = "START_ADD_OR_EDIT";
+export const CLOSE_ADD_OR_EDIT = "CLOSE_ADD_OR_EDIT";
+
+export const ADD_ITEM = "ADD_ITEM";
+export const EDIT_ITEM = "EDIT_ITEM";
+export const REMOVE_ITEM = "REMOVE_ITEM";
+export const TOGGLE_FAVORITE = "TOGGLE_FAVORITE";

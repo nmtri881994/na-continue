@@ -1,0 +1,125 @@
+.card-container-1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-right: 2rem;
+}
+
+.card-detail-container-1 {
+    display: flex;
+    flex-direction: column;
+    margin: 2em 0 1em;
+    line-height: 1.2em;
+}
+
+.card-detail-item-container-1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.card-detail-item-container-1:not(:last-of-type) {
+    margin-bottom: .5rem;
+}
+
+.card-owner-time {
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+.card-owner {
+    display: flex;
+}
+
+.card-time {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.card-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 1em;
+}
+
+.card-description {
+    font-size: 1em;
+    max-height: 3.6em;
+    overflow: hidden;
+    -ms-word-break: break-all;
+    word-break: break-all;
+    word-break: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+}
+
+.card-action-container-1 {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-end;
+    min-width: 250px;
+}
+
+.card-action-container-2 {
+    display: flex;
+    /* flex-direction: row; */
+}
+
+.card-view-action-container-1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.card-search-action-container-1 {
+    display: flex;
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding: .5em 0;
+    border-radius: 5px;
+    border: 1px solid #ebebed;
+    color: #aeacb9;
+    z-index: 1;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+}
+
+.card-search-action-container-1:hover {
+    border-color: #9391a1;
+    color: #9391a1;
+}
+
+.add-to-collection-button-icon {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: .5em;
+    font-size: 1.3em;
+    color: black;
+}
+
+.card-thumbnail-container-1 {
+    display: flex;
+}
+
+.disabled {
+    pointer-events: none;
+    color: #4caf50;
+}
+
+@media(max-width: 900px) {
+    .card-container-1 {
+        margin-bottom: 3rem;
+        margin-right: 0;
+    }
+}

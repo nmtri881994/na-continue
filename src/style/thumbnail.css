@@ -1,0 +1,54 @@
+.thumnail-container-1 {
+    display: flex;
+    position: relative;
+    width: 100%;
+
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+
+.thumnail-container-1:hover {
+    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.4);
+}
+
+.thumnail-container-2 {
+    display: block;
+    width: 100%;
+}
+
+.card-play {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    font-size: 1em;
+}
+
+.card-play:hover {
+    font-size: 1.3em;
+}
+
+.play-icon-container-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4em;
+    height: 4em;
+    border-radius: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.play-icon-container-2 {
+    display: flex;
+
+    font-size: 2em;
+
+    margin-right: -.255em;
+}

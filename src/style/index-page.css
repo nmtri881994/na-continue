@@ -1,0 +1,32 @@
+.index-container-1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.index-header-container-1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+.index-cards-container-1 {
+    /* display: flex;
+    width: 100%;
+    margin-top: 2rem; */
+}
+
+.index-name {
+    display: flex;
+    font-size: 3em;
+
+    color: #b4b4b4;
+    font-weight: bold;
+}
+
+.index-action {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+}
